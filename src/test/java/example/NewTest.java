@@ -28,7 +28,7 @@ public class NewTest {
 	@BeforeTest
 	public void beforeTest() {	
 	   // driver = new FirefoxDriver(); 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\kghaneka\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();  
 		//testEasy();
 		/*driver.get("https://www.saucelabs.com");       
