@@ -35,6 +35,7 @@ public class NewTest {
 	       WebElement href = driver.findElement(By.xpath("//a[@href='/beta/login']"));
 	       assertTrue((href.isDisplayed()));  
 	       driver.close();*/
+		
 	}		
 	@AfterTest
 	public void afterTest() {
